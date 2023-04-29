@@ -1,0 +1,47 @@
+/* ブラウザがそれぞれ持っているCSSをリセットするための記述 */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #6c6b6b;
+}
+a {
+  text-decoration: none;
+}
+
+.main-visual {
+  width: 100%; /* 横幅いっぱい*/
+   display: flex; /* Flexboxの利用 */
+  justify-content: center; /* 要素の横並び・中央寄せ */
+}
+
+.main-visual-spring {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ300px */
+  background-image: url(img/box1.jpg);
+  backgroud-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.main-visual-summer {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ300px */
+  background-image: url(img/box2.jpg);
+  backgroud-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+
+.main-visual-autumn {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ300px */
+  background-image: url(img/box3.jpg);
+  backgroud-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
+.main-visual-winter {
+  width: 100%; /* 横幅いっぱい */
+  height: 200px; /* 高さ300px */
+  background-image: url(img/box4.jpg);
+  backgroud-size: cover; /*縦横比を維持したまま背景領域を埋め尽くす */
+  background-position: center; /* 背景画像を中央に配置 */
+}
